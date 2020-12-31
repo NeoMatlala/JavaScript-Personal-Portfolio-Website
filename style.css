@@ -335,10 +335,130 @@ img{
     background-color: var(--first-color-light);
 }
 
-/* ----- BASE -----*/
-/* ----- BASE -----*/
-/* ----- BASE -----*/
-/* ----- BASE -----*/
+.button-white{
+    background-color: var(--first-color-lighten);
+    color: var(--first-color-dark);
+}
+
+.button-white:hover{
+    background-color: var(--first-color-lighten);
+}
+
+/* ----- ABOUT -----*/
+.about__data{
+    text-align: center;
+}
+
+.about__description span{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--first-color);
+}
+
+.about__number{
+    font-size: var(--h1-font-size);
+    color: var(--first-color);
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: -0.4rem;
+}
+
+.about__img{
+    margin: 0 auto;
+    width: 220px;
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
+
+/* ----- QUALIFICATION -----*/
+.qualification__container{
+    row-gap: 2.5rem;
+}
+
+.qualification__title{
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin-bottom: var(--mb-2);
+    display: flex;
+    align-items: center;
+}
+
+.qualification__title-icon{
+    font-size: 1.5rem;
+    margin-right: var(--mb-1);
+}
+
+.qualification__box{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.qualification__icon, .qualification__work{
+    font-size: var(--smaller-font-size);
+    color: var(--first-color-light);
+}
+
+
+/* ----- SERVICES -----*/
+.services__data{
+    padding: 3rem 1rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 4px 6px rgba(174,190,205,.3);
+    margin-bottom: 2rem;
+}
+
+.services__data:hover{
+    transform: translateY(-.5rem);
+    box-shadow: 0 6px 8px rgba(174,190,205,.4);
+}
+
+.services__icon, .services__title{
+    margin-bottom: var(--mb-2);
+    color: var(--first-color);
+}
+
+.services__icon{
+    font-size: 3rem;
+}
+
+.services__title{
+    font-size: var(--h3-font-size);
+}
+
+.services__description{
+    margin-bottom: var(--mb-4);
+}
+
+/* ----- PROJECT IN MIND -----*/
+.project__container{
+    padding: 1.5rem 1rem;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.project__icon, .project__title{
+    margin-bottom: var(--mb-1);
+}
+
+.project__icon{
+    font-size: 3.5rem;
+}
+
+.project__title{
+    font-size: 1.5rem;
+}
+
+.project__description{
+    margin-bottom: var(--mb-4);
+}
+
+
+
 /* ----- BASE -----*/
 /* ----- BASE -----*/
 /* ----- BASE -----*/
