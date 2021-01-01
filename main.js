@@ -33,9 +33,9 @@ function scrollActive(){
         sectionId = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav__menu a[href*=' + ']').classList.add('active-link')
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         }else{
-            document.querySelector('.nav__menu a[href*=' + ']').classList.remove('active-link')
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
         }
     })
 }
@@ -81,4 +81,11 @@ function activePortfolio(){
 linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
 
 
-/* ----- SWIPER CAROUSEL ----- */
+/* ----- GSAP ANIMATION ----- */
+gsap.from('.home__img', {opacity:0, duration:2, delay:.5, x:60})
+gsap.from('.home__data', {opacity:0, duration:2, delay:.8, y:25})
+gsap.from('.home__greeting, .home__name, .home__profession, .home__button', {opacity:0, duration:2, delay:1, y:25, ease:'expo.out', stagger:.2})
+
+gsap.from('.nav__logo, .nav__toggle', {opacity:0, duration:2, delay:1.5, y:25, ease:'expo.out', stagger:.2})
+gsap.from('.nav__item', {opacity:0, duration:2, delay:1.8, y:25, ease:'expo.out', stagger:.2})
+gsap.from('.home__social-icon', {opacity:0, duration:2.3, delay:1.8, y:25, ease:'expo.out', stagger:.2})
