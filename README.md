@@ -13,4 +13,4 @@ Responsive *Personal Porfolio Website* created using HTML5, JavaScript & CSS3.
 
 
 ## See it live
-Here's the live link: https://neomatlala.github.io/Personal-Portfolio-Website/
+Here's the live link: https://neomatlala.github.io/JavaScript-Personal-Portfolio-Website/
